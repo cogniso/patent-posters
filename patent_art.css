@@ -1,0 +1,144 @@
+/*************
+General
+**************/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+/**************
+Styles
+**************/
+
+#container{
+    width: 55%;
+    margin: 0 auto;
+    background: #F2F2F2;
+    border-radius: 20px;
+    padding: 1px; /*to prevent margin collapse*/
+}
+
+header{
+    border-radius: 20px 20px 0 0;
+    background: lightgrey;
+    text-align: center;
+    padding: 1px; /*to prevent margin collapse*/
+    font-family: Pacifico;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+h2{
+    margin-top: 7px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+#content{
+    margin: 20px;
+}
+
+#content li img:not([class="dl-icon"]):not([class="ptnt-link"]){
+    width: 100px;
+    border: double;
+    float: left;
+}
+
+h3, #p{
+    display:inline-block;
+    margin-left: 20px;
+}
+
+.dl{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.dl-icon, .ptnt-link{
+    width: 100px;
+    margin-left: 85px;
+}
+
+
+
+/*************
+Media Query
+**************/
+
+@media screen and (max-width: 800px){
+    #container{
+        width: 100%;
+    }
+    #content li img:not([class="dl-icon"]):not([class="ptnt-link"]){
+        float: none;
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    #p{
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+
+    h3{
+        width: 200px;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .dl{
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .dl-icon, .ptnt-link{
+        margin: 20px auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
