@@ -32,11 +32,12 @@ Styles
 **************/
 
 #container{
-    width: 55%;
+    width: 70%;
     margin: 0 auto;
     background: #F2F2F2;
     border-radius: 20px;
     padding: 1px; /*to prevent margin collapse*/
+    clear: both;
 }
 
 header{
@@ -62,25 +63,40 @@ h2{
     margin: 20px;
 }
 
-#content li img:not([class="dl-icon"]):not([class="ptnt-link"]){
-    width: 100px;
-    border: double;
-    float: left;
+ul{
+    overflow: hidden;
+    padding: 0;
 }
 
-h3, #p{
+li{
+    float:left;
+    width: 50%;
+    text-align: center;
+}
+
+.thumbnails{
+    border: double;
+
+}
+
+h3, p{
     display:inline-block;
     margin-left: 20px;
+    text-align: center;
 }
 
-.dl{
-    display: inline-block;
-    margin-top: 25px;
+.download{
+    display: block;
+    margin: 25px auto;
+    width: 70%;
+    border-bottom: 3px double black;
 }
 
-.dl-icon, .ptnt-link{
-    width: 100px;
-    margin-left: 85px;
+.download-icon, .patent-icon{
+    width: 80px;
+    margin-left: 35px;
+
+
 }
 
 
@@ -100,7 +116,7 @@ Media Query
         margin: 0 auto;
     }
 
-    #p{
+    p{
         margin: 0 auto;
         text-align: center;
         width: 100%;
@@ -115,13 +131,13 @@ Media Query
         text-align: center;
     }
 
-    .dl{
+    .download{
         width: 100px;
         display: block;
         margin: 0 auto;
     }
 
-    .dl-icon, .ptnt-link{
+    .download-icon, .patent-icon{
         margin: 20px auto;
     }
 

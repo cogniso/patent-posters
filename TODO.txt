@@ -1,7 +1,7 @@
-- Create thumbnails of the images.
-- Change ptnt- CSS classes to be patent- 
-- Delete unnecessary ID attributes
-- Use longer class names that describe what's happening
-- Add back a bottom border
-- Add a class to the thumbnails images
-- Move the download links within list items
+- Create thumbnails of the images. ***DONE***
+- Change ptnt- CSS classes to be patent- ***DONE***
+- Delete unnecessary ID attributes ***DONE***
+- Use longer class names that describe what's happening ***DONE***
+- Add back a bottom border ***DONE***
+- Add a class to the thumbnails images ***DONE***
+- Move the download links within list items ***DONE***
