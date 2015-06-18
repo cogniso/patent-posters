@@ -10,26 +10,60 @@ body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-a:visited{
-    color: black;
+a:visited {
+  color: blue;
 }
 
 a:hover{
     cursor: pointer;
 }
 
-li{
+.patents-list {
+  padding-left: 0;
+  overflow: auto;
+}
+
+.patents-list li {
     list-style-type: none;
     margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    background-color: white;
+    border: 1px solid #999;
+
+    float:left;
+    width: 40%;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    border-radius: 6px;
+}
+
+.thumbnail {
+  border: 1px solid #999;
+  max-width: 100%;
+}
+
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 0;
 }
 
 /**************
 Styles
 **************/
+
+
 
 #container{
     width: 70%;
@@ -59,7 +93,8 @@ h2{
     font-weight: normal;
 }
 
-#content{
+li{
+}
     margin: 20px;
 }
 
@@ -68,16 +103,6 @@ ul{
     padding: 0;
 }
 
-li{
-    float:left;
-    width: 50%;
-    text-align: center;
-}
-
-.thumbnails{
-    border: double;
-
-}
 
 h3, p{
     display:inline-block;
@@ -86,17 +111,11 @@ h3, p{
 }
 
 .download{
-    display: block;
     margin: 25px auto;
-    width: 70%;
-    border-bottom: 3px double black;
 }
 
-.download-icon, .patent-icon{
+.download-icon {
     width: 80px;
-    margin-left: 35px;
-
-
 }
 
 
@@ -108,12 +127,6 @@ Media Query
 @media screen and (max-width: 800px){
     #container{
         width: 100%;
-    }
-    #content li img:not([class="dl-icon"]):not([class="ptnt-link"]){
-        float: none;
-        display: block;
-        width: 100px;
-        margin: 0 auto;
     }
 
     p{
@@ -141,7 +154,9 @@ Media Query
         margin: 20px auto;
     }
 
-
+    .thumbnail {
+      width: 100%;
+    }
 }
 
 

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Patent Art</title>
     <link rel="icon"type="image/png" href="images/favicon.ico">
-    <link href='http:gifonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="patent_art.css">
   </head>
 
@@ -17,20 +17,29 @@
       </header>
 
       <section id="content">
-        <ul>
+        <ul class="patents-list">
             <li>
-              <img src="thumbnails/lego-brick.png" alt="lego" class="thumbnails" />
-              <h3>Lego Bricks 1958</h3>
-              <p>
-                Inventor: Kirk Christiansen Godtfred
-                <br>Filling date: Jul 28, 1958. Publication date: Oct 24, 1961
-              </p>
+              <img src="thumbnails/lego-brick.png" alt="lego" class="thumbnail" />
+              <h3>Lego Bricks <span>1958</span></h3>
+
+              <dl>
+                <dt>Inventor</dt>
+                <dd>Kirk Christiansen Godtfred</dd>
+
+                <dt>Filling date</dt>
+                <dd>Jul 28, 1958</dd>
+
+                <dt>Publication date</dt>
+                <dd>Oct 24, 1961</dd>
+              </dl>
+
+              <a href="http://www.google.com/patents/US3005282" target="_blank">
+                View on Google Patents
+              </a>
+
               <div class="download">
                     <a href="#">
                         <img class="download-icon" src="images/download_icon_png.png" alt="download-icon" />
-                    </a>
-                    <a href="http://www.google.com/patents/US3005282" target="_blank">
-                        <img class="patent-icon" src="images/patent_link_png.png" alt="patent-icon" />
                     </a>
               </div>
             </li>
