@@ -1,14 +1,17 @@
-* Create thumbnails of the images. ***DONE***
-* Change ptnt- CSS classes to be patent- ***DONE***
-* Delete unnecessary ID attributes ***DONE***
-* Use longer class names that describe what's happening ***DONE***
+* Create thumbnails of the images. 
+* Change ptnt- CSS classes to be patent- 
+* Delete unnecessary ID attributes 
+* Use longer class names that describe what's happening 
 * Add back a bottom border ***DONE***
-* Add a class to the thumbnails images ***DONE***
-* Move the download links within list items ***DONE***
+* Add a class to the thumbnails images 
+* Move the download links within list items
 
-- Change markup to DL lists for details
-- Change Google Patents link
-- Change the download button
-- Make the cards responsive so that below X pixels cards become 100% wide.
-- Link the pictures to the full images
-- Put the year in the titles in a different style
+
+ 
+
+* Change markup to DL lists for details
+* Change Google Patents link
+* Change the download button
+* Make the cards responsive so that below X pixels cards become 100% wide.
+* Link the pictures to the full images
+* Put the year in the titles in a different style
