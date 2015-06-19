@@ -6,12 +6,16 @@
 * Add a class to the thumbnails images 
 * Move the download links within list items
 
-
- 
-
 * Change markup to DL lists for details
 * Change Google Patents link
 * Change the download button
 * Make the cards responsive so that below X pixels cards become 100% wide.
 * Link the pictures to the full images
 * Put the year in the titles in a different style
+
+- Apply a hover effect to text links
+- Add the image size and file size
+- Get the images to float to the left on the small mobile view
+
+BONUS:
+- Make the card shadow go darker when the mouse is over it.
