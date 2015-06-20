@@ -16,13 +16,62 @@ a:visited {
 
 a:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 
-span{
+/**************
+Patents Link Hover
+**************/
+
+/*.patent_link_hover:hover{
+    text-decoration: underline;
+}*/
+
+p{
+    display: inline-block;
+}
+
+/*a:hover p{
+    text-decoration: underline;
+}*/
+
+a:hover .o-e_red{
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a:hover .o_yellow{
+    color: yellow;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a:hover .l_green{
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a:hover .g{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/**************
+END of Patents Link Hover
+**************/
+
+.img-size{
+    font-size: 11px;
+    display: block;
+    font-style: italic;
+}
+
+span.year{
     font-family: pacifico;
     font-size: 30px;
     margin-left: 15px;
-    font
 }
 
 .patents-list {
@@ -49,9 +98,26 @@ span{
     border-radius: 6px;
 }
 
+/***************
+Shadow Effect
+***************/
+
+.patents-list li:hover{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.9);
+}
+
+.thumbnail:hover{
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+/***************
+END of Shadow Effect
+***************/
+
 .thumbnail {
   border: 1px solid #999;
-  max-width: 100%;
+  max-width: 90%;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
 
 
@@ -62,7 +128,7 @@ dd {
   margin-left: 0;
 }
 
-#container{
+.container{
     width: 70%;
     margin: 0 auto;
     background: #F2F2F2;
@@ -96,7 +162,7 @@ ul{
 }
 
 
-h3, p{
+h3{
     display:inline-block;
     margin-left: 5%;
     text-align: center;
@@ -118,8 +184,8 @@ h3, p{
 Media Query
 **************/
 
-@media screen and (max-width: 800px){
-    #container{
+@media screen and (max-width: 850px){
+    .container{
         width: 100%;
     }
 
@@ -127,7 +193,7 @@ Media Query
         margin: 0 auto;
         text-align: center;
         width: 100%;
-        display: block;
+
     }
 
 
@@ -139,7 +205,7 @@ Media Query
     }
 
     .download{
-        width: 100px;
+        width: 150px;
         display: block;
         margin: 0 auto;
     }
@@ -161,6 +227,11 @@ Media Query
     .thumbnail {
       width: 85%;
     }
+
+    .img-size{
+        margin-top: 10px;
+    }
+
 }
 
 @media screen and (max-width: 650px){
@@ -170,7 +241,70 @@ Media Query
         margin-left: 2.5%;
         margin-right: 2.5%;
     }
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        background: #F2F2F2;
+        border-radius: 20px;
+        padding: 1px; /*to prevent margin collapse*/
+    }
+
+    header{
+        border-radius: 20px 20px 0 0;
+        background: lightgrey;
+        text-align: center;
+        padding: 1px; /*to prevent margin collapse*/
+        font-family: Pacifico;
+    }
+
+    h1{
+        margin-top: 10px;
+        margin-bottom: 2px;
+    }
+
+    h2{
+        margin-top: 7px;
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
+
+    h3{
+        margin-right: auto;
+        margin-left: auto;
+        padding-bottom: 30px;
+    }
+
+    dl{
+        margin-top: 30px;
+    }
+
+    .patent{
+        display: inline-block;
+    }
+
+    span.year{
+        display: block;
+        padding: 1px;
+        margin-bottom: 20px;
+    }
+
+    dl{
+        clear: both;
+        padding: 1px;
+    }
+
+    .thumbnail{
+        width: 100px;
+        margin-left: 10px;
+        border: black double;
+        float: left;
+    }
+
 }
+
+
+
 
 
 

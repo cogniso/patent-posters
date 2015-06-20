@@ -13,9 +13,9 @@
 * Link the pictures to the full images
 * Put the year in the titles in a different style
 
-- Apply a hover effect to text links
-- Add the image size and file size
-- Get the images to float to the left on the small mobile view
+* Apply a hover effect to text links
+* Add the image size and file size
+* Get the images to float to the left on the small mobile view
 
 BONUS:
-- Make the card shadow go darker when the mouse is over it.
+* Make the card shadow go darker when the mouse is over it.
