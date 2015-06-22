@@ -128,14 +128,14 @@ dd {
   margin-left: 0;
 }
 
-.container{
+/*.container{
     width: 70%;
     margin: 0 auto;
     background: #F2F2F2;
     border-radius: 20px;
     padding: 1px; /*to prevent margin collapse*/
-    clear: both;
-}
+    /*clear: both;
+}*/
 
 header{
     border-radius: 20px 20px 0 0;
