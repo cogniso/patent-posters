@@ -10,13 +10,6 @@ header{
     background: #F2F2F2;
     padding-top: 20px;
 }
-.top_margin_issue{
-    margin-top: 20px;
-}
-
-.patent-row {
-  margin-bottom: 20px;
-}
 
 
 span.year{
@@ -26,19 +19,20 @@ span.year{
 }
 
 p.img-size{
-    margin-top: 10px;
+  padding: 10px 0;
+  color: #999;
 }
 
 /***************
 Shadow Effect
 ***************/
 
-.col-sm-6:hover{
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.9);
+.patent-card:hover{
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
 .patent-thumbnail:hover{
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    border-color: black;
 }
 
 /***************
@@ -48,13 +42,15 @@ END of Shadow Effect
 .patent-thumbnail {
   border: 1px solid #999;
   max-width: 90%;
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
   margin: 10px auto;
 }
 
 section.patent-card {
     text-align: center;
     background-color: white;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    transition: box-shadow 500ms;
 }
 
 
