@@ -1,69 +1,50 @@
-body{
-    background-image: url("images/brickwall/brickwall.png");
-    background-attachment: fixed;
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 1.846;
+  color: #666666;
+  background-image: url("images/bg-squairy_light.png");
+  background-attachment: fixed;
+  margin-top: 0;
 }
 
+header {
+  background-color: white;
+  color: rgba(0,0,0,0.87);
+  text-align: center;
+  padding: 40px 0;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
 
-header{
-    font-family: cursive;
-    text-align: center;
-    background-color: rgba(95,125,139,0.2);
-    border-radius: 8px;
-    /padding: 1px; /*to prevent margin collapse*/
+h1 {
+  margin: 0;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: rgba(0,0,0,0.7);
+}
+
+h2 {
+  font-size: 18px;
+  color: rgba(0,0,0,0.4);
+  margin-top: 10px;
 }
 
 .content {
-    /*background: #F2F2F2;*/        /*DECIDE IF SHOULD BE KEPT OR NOT*/
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
-
-span.patent_title_year{
-    font-family: pacifico;
-    font-size: 25px;
-    margin-left: 5px;
+.patent-card {
+  text-align: center;
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  transition: box-shadow 500ms;
 }
 
-p.poster-dimensions{
-  padding: 10px 0;
-  color: #999;
+.patent-card:hover {
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
-
-a.download_button-color{
-    background-color: #536dfe;
-    color: #fff;
-}
-
-a.download_button-color:hover{
-    color: #ff9800;
-    background-color: #1638FB;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-
-}
-
-p.google_patentns_link{
-    color:#536dfe;
-}
-
-p.google_patentns_link:hover{
-    color: #ff9800;
-}
-
-/***************
-Shadow Effect
-***************/
-
-.patent-card:hover{
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
-}
-
-.patent-thumbnail:hover{
-    border-color: black;
-}
-
-/***************
-END of Shadow Effect
-***************/
 
 .patent-thumbnail {
   border: 1px solid #999;
@@ -71,14 +52,34 @@ END of Shadow Effect
   margin: 10px auto;
 }
 
-section.patent-card {
-    text-align: center;
-    background-color: white;
-    margin-bottom: 20px;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
-    transition: box-shadow 500ms;
+.patent-thumbnail:hover {
+  border-color: black;
 }
 
+.patent-title-year {
+  font-size: 20px;
+  color: #999;
+}
+
+.google-patents-link {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.btn-download {
+  background-color: #536dfe;
+  color: #fff;
+}
+
+.btn-download:hover {
+  color: white;
+  background-color: #1638FB;
+}
+
+.poster-dimensions {
+  padding: 10px 0;
+  color: rgba(0,0,0,0.54);
+}
 
 @media (max-width: 600px) {
   .patent-details, .patent-image {
@@ -86,19 +87,11 @@ section.patent-card {
     float: left;
   }
 
-  .col-sm-6:hover{
-    box-shadow: none;
-  }
-
-/*  .patent-details{
-    clear: both;
-  }*/
-
   .patent-card {
     overflow: auto;
   }
-  .patent-row{
-      margin-bottom: 0;
-  }
 
+  .patent-row {
+    margin-bottom: 0;
+  }
 }
