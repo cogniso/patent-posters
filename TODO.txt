@@ -28,3 +28,9 @@ BONUS:
   * Apply a colour to the links
   * Put some color in the heading.  Not too much, just a little.
 * Resize the year
+
+- Clean up the google patent links HTML
+- Link the download buttons to the images
+- Check the Google patent links point to the correct place
+- Clean up the CSS file to be in a better order, with consistent naming and only
+  hyphens.
