@@ -32,12 +32,13 @@ p.poster-dimensions{
 a.download_button-color{
     background-color: #536dfe;
     color: #fff;
-    border-color: none;
 }
 
 a.download_button-color:hover{
     color: #ff9800;
     background-color: #1638FB;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+
 }
 
 p.google_patentns_link{
