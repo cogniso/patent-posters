@@ -20,11 +20,11 @@
 BONUS:
 * Make the card shadow go darker when the mouse is over it.
 
-- The whole page should have a background, not just the container. 
-- subtlepatterns.com
-- Remove the fancy font and use something simple for the heading.
-- Choose a color scheme from http://www.materialpalette.com/
-  - Apply a colour to the download buttons
-  - Apply a colour to the links
-  - Put some color in the heading.  Not too much, just a little.
-- Resize the year
+* The whole page should have a background, not just the container. 
+* subtlepatterns.com
+* Remove the fancy font and use something simple for the heading.
+* Choose a color scheme from http://www.materialpalette.com/
+  * Apply a colour to the download buttons
+  * Apply a colour to the links
+  * Put some color in the heading.  Not too much, just a little.
+* Resize the year

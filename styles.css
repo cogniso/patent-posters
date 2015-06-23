@@ -1,26 +1,51 @@
+body{
+    background-image: url("images/brickwall/brickwall.png");
+    background-attachment: fixed;
+}
+
+
 header{
-    border-radius: 20px 20px 0 0;
-    background: lightgrey;
+    font-family: cursive;
     text-align: center;
+    background-color: rgba(95,125,139,0.2);
+    border-radius: 8px;
     /padding: 1px; /*to prevent margin collapse*/
-    font-family: Pacifico;
 }
 
 .content {
-    background: #F2F2F2;
+    /*background: #F2F2F2;*/        /*DECIDE IF SHOULD BE KEPT OR NOT*/
     padding-top: 20px;
 }
 
 
-span.year{
+span.patent_title_year{
     font-family: pacifico;
-    font-size: 30px;
-    margin-left: 15px;
+    font-size: 25px;
+    margin-left: 5px;
 }
 
-p.img-size{
+p.poster-dimensions{
   padding: 10px 0;
   color: #999;
+}
+
+a.download_button-color{
+    background-color: #536dfe;
+    color: #fff;
+    border-color: none;
+}
+
+a.download_button-color:hover{
+    color: #ff9800;
+    background-color: #1638FB;
+}
+
+p.google_patentns_link{
+    color:#536dfe;
+}
+
+p.google_patentns_link:hover{
+    color: #ff9800;
 }
 
 /***************
